@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Starts the server to begin listening
 app.listen(PORT, function() {
+    // log to make sure it's listening on correct server
     console.log("App listening on PORT " + PORT);
 });
   
