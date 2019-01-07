@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Friend Finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelemoose/FriendFinder.git"
+  },
+  "keywords": [
+    "friend"
+  ],
+  "author": "Rachel Moose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelemoose/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/rachelemoose/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "package-json-path": "^1.0.8",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  }
+}
