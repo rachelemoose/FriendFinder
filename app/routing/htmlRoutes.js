@@ -4,8 +4,8 @@ var path = require("path");
 // Routing 
 module.exports = function(app) {
     // Standard route that sends the user to the home page
-    app.get('/', function (req, res) {
-        res.sendFile(path.join(__dirname, '/../public/home.html'));
+    app.get("/", function (req, res) {
+        res.sendFile(path.join(__dirname, "/../public/home.html"));
 });
 	// route to send user to survey page
 	app.get("/survey", function(req, res) {

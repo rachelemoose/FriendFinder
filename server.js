@@ -4,6 +4,7 @@ var express = require("express");
 // Path package
 var path = require("path");
 
+// Create express app instance
 var app = express();
 var PORT = process.env.PORT || 3000;
 
@@ -18,8 +19,8 @@ app.listen(PORT, function() {
 });
   
 // Requires and sets the HTML routes in this file
-var HTMLroutes = require('./app/routing/htmlRoutes.js')(app);
+require('./app/routing/htmlRoutes.js')(app);
 
 // Requires and sets the API routes in this file
-var APIroutes = require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/apiRoutes.js')(app);
 
