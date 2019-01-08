@@ -47,8 +47,58 @@ var friends = [
             5
         ]
 
-    }
+    },
+    {
+        name: "Joey",
+        photo: "https://ibb.co/V2rMBCc",
+        scores: [
+            5,
+            1,
+            3,
+            1,
+            2,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
 
+    },
+    {
+        name: "Chandler",
+        photo: "https://ibb.co/VLDZqHF",
+        scores: [
+            5,
+            1,
+            2,
+            1,
+            3,
+            1,
+            3,
+            5,
+            2,
+            5
+        ]
+
+    },
+    {
+        name: "Monica",
+        photo: "https://ibb.co/1KWcmrr",
+        scores: [
+            2,
+            5,
+            1,
+            5,
+            3,
+            3,
+            4,
+            5,
+            3,
+            5
+        ]
+
+    }
 ];
 
 module.export = friends;
