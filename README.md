@@ -14,3 +14,5 @@ https://secure-ocean-77635.herokuapp.com/
 
 # Code Explaination 
 Server.js file is created to set up an Express Server using NPM packages such as Path. 
+Package JSON files holds the dependencies and versions (express, node and other npm packages).
+The front end is managed in the "public" file.
